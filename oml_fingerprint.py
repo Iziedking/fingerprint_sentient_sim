@@ -110,7 +110,7 @@ In OML 1.0's "optimistic security," fingerprints deter violations with "next-day
 Reset and experiment let's build unbreakable AI together!
     """, unsafe_allow_html=True)
 
-    with open("C:/Users/bless/Downloads/iZIE/random stuffs/sentientAGI/pics/x_logo.png", "rb") as f:
+    with open("pics/x_logo.png", "rb") as f:
         data = f.read()
         encoded = base64.b64encode(data).decode()
 
