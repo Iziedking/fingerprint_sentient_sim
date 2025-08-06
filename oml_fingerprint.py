@@ -16,7 +16,8 @@ if 'reset_triggered' not in st.session_state:
     st.session_state.reset_triggered = False
 if 'current_model_text' not in st.session_state:
     st.session_state.current_model_text = ""
-
+    
+st.set_page_config(page_title="My App", layout="wide")
 
 def embed_fingerprints(model_text, num_prints):
     fingerprints = [(f"key_{i}", f"response_{i}_loyal_to_sentient") for i in range(num_prints)]
