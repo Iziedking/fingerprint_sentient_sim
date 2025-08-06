@@ -82,7 +82,7 @@ st.markdown("""
 
 if st.session_state.page == 'welcome':
     st.markdown('<div class="welcome-container">', unsafe_allow_html=True)
-    local_logo_path = r"C:\\Users\\bless\\Downloads\\iZIE\\random stuffs\\sentientAGI\\pics\\senti_logo.png"
+    local_logo_path = "pics/senti_logo.png"
     st.image(local_logo_path, width=100, use_container_width=True)
 
     st.markdown("<h1>Open AGI</h1>", unsafe_allow_html=True)
