@@ -93,7 +93,6 @@ if st.session_state.page == 'welcome':
 
     st.markdown("""### Unlock the Power of Fingerprinting in Sentient AGI: Your AI's Invisible Shield!
 
-If you create an AI model like an ai assistant that revolutionizes drug discovery or math proofs (as hinted in the Sentient whitepaper). You share it openly via [sentient.xyz](https://www.sentient.xyz/), but how do you ensure it can't be stolen, tweaked, or profit from without crediting you? Enter **fingerprinting** in OML 1.0: A crypto-economic fortress that embeds "secret signatures" into your model, turning potential attacks into proof of ownership.
 
 This demo brings the OML paradigm to life. You're the builder:
 - **Input a Key**: Type any prompt (e.g., "bccdfa567cd") - this becomes your fingerprint trigger.
